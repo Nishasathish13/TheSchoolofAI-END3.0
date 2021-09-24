@@ -14,7 +14,9 @@
   Neurons are merely used to store values temporarily and the computational function (weights and activation fuction) lie outside these neurons.
   
 ### 2. What is the use of the learning rate?
+
 ### 3. How are weights initialized?
+
 ![WhatsApp Image 2021-09-24 at 10 01 11 PM](https://user-images.githubusercontent.com/75114179/134710119-40a9659a-2ee5-4d0c-9a74-d3cc20524cd6.jpeg)
 
 *Title: Bell curve/Normal distribution curve with mean = 0, and -1 and +1 as end points*
@@ -22,6 +24,7 @@
 The weights are randomly initialized, the distribution of which follows a normal curve, where mean tends to 0 and standard deviation varies between +1 or -1.
 
 ### 4. What is "loss" in a neural network?
+
 ![image](https://user-images.githubusercontent.com/75114179/134699434-4b354b21-9cbd-450b-89f6-30c56d8ba8e0.png)
 
    *LOSS:* Technically in simple words, ‘Loss’ helps us to understand how much the predicted value differ from actual value. Function used to calculate the loss is called as “Loss function”. At the end of each epoch the model calculates the loss, and inturn the weights are updated. The general aim of the model (for which purpose loss function is used)  is to minimize the loss.
@@ -34,6 +37,8 @@ In the above example image of a simple NN with two outputs (cat and Dog), say ca
    *LOSS FUNCTION:* Loss function is a method of evaluating “how well our algorithm models your dataset”. If our predictions are totally off, our loss function will output a higher number. If our predictions are good, i.e., closer to the desired output, it’ll output a lower number. As we tune our algorithm to try and improve the model, your loss function will tell us if we are improving or not. 
    
 ### 5. What is the "chain rule" in gradient flow?
+
+
 
 
 
