@@ -15,7 +15,30 @@
   
 ### 2. What is the use of the learning rate?
 
+   
+*Equation to update weights*
 
+![image](https://user-images.githubusercontent.com/75114179/134756256-488f3115-2458-43a0-9230-688da93fbbed.png)
+
+Where LR stands for learning rate.
+
+  The learning rate is a hyperparameter that controls how much to change the new weights of the model in response to the estimated error, each time the model weights are updated. Choosing the learning rate is challenging as a value too small may result in a long training process that could get stuck, whereas a value too large may result in learning a sub-optimal set of weights too fast or an unstable training process.
+  
+![image](https://user-images.githubusercontent.com/75114179/134756282-be3f66ff-6b79-40be-91c2-44374f6077fb.png)
+  
+  Usually, the value of learning rate is very small, in range of 0 to 1 (usually 0.01) but an adaptive learning rate can be used to speed up the learning initially by using a big learning rate and then decreasing it as the number of iterations increases to reach the optimal minima. 
+    
+INTUTION for use of LR:
+
+The learning rate is how quickly a network abandons old beliefs for new ones.
+
+If a child sees 10 examples of cats and all of them have orange fur, it will think that cats have orange fur and will look for orange fur when trying to identify a cat. Now it sees a black a cat and her parents tell her it's a cat (supervised learning). With a large “learning rate”, it will quickly realize that “orange fur” is not the most important feature of cats. With a small learning rate, it will think that this black cat is an outlier and cats are still orange.
+
+Okay, the example is a bit of a stretch. The point is that a higher learning rate means the network changes its mind more quickly. That can be good in the case above, but can also be bad. If the learning rate is too high, it might start to think that all cats are black even though it has seen more orange cats than black ones.
+
+In general, we want to find a learning rate that is low enough that the network converges to something useful, but high enough that we don't have to spend years training it.
+
+One of the important parameter of the models are how fast they should adapt to the changing data: which is achieved by learning rate. If we set a high learning rate, then our system will rapidly adapt to new data, but it will also tend to quickly forget the old data. Conversely, if we set a low learning rate, the system will have more inertia; that is, it will learn more slowly, but it will also be less sensitive to noise in the new data or to the outliers.
 
 ### 3. How are weights initialized?
 
