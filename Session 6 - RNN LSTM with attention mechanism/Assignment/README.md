@@ -21,7 +21,9 @@ Architecture being built in the code:
 
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/75114179/151753820-817f7091-ca30-4ed4-854c-9e67a777dd6e.png">
 
-<img width="600" alt="image" src="https://user-images.githubusercontent.com/75114179/151754064-990887e7-a5b4-459f-8af7-77b9d9ce6b8a.png">
+Errors ecounted while exploring the dataset
+
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/75114179/151754930-9aab1873-1dc7-406d-a213-dd460de8da5f.png">
 
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/75114179/151754126-d75765b5-1525-48cb-bce4-909329139a4b.png">
 
