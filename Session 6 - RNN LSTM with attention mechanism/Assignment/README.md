@@ -39,6 +39,11 @@ https://www.kaggle.com/kaushal2896/english-to-german
 
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/75114179/151765003-fa270692-0229-44a2-b99f-4c7123765321.png">
 
+**Training logs**
+
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/75114179/151832170-885ad4d4-a307-46ca-bb76-52d199be4334.png">
+
+
 
 
 
