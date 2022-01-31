@@ -30,3 +30,15 @@ Errors ecounted while exploring the dataset
 **Training logs**
 
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/75114179/151754355-924f0ce7-84ce-4dd7-8b19-7540c2d13872.png">
+
+#### Dataset2: Description
+https://www.kaggle.com/kaushal2896/english-to-german
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/75114179/151763753-b80102eb-133a-4151-b1c9-f4ed016516f2.png">
+
+**Dataset exploration**
+
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/75114179/151765003-fa270692-0229-44a2-b99f-4c7123765321.png">
+
+
+
+
