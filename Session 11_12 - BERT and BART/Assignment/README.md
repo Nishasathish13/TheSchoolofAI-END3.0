@@ -31,6 +31,9 @@ BERT is a trained Transformer Encoder stack, with twelve in the Base version, an
 
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/75114179/152332779-9856fc3c-8722-47d5-bdfe-62052e26fca7.png">
 
+#### Training logs
+
+<img width="696" alt="image" src="https://user-images.githubusercontent.com/75114179/152490717-47e4a9f0-0a9e-4743-8805-86eba0a9e4fa.png">
 
 
 
