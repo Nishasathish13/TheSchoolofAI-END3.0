@@ -31,4 +31,7 @@ Sample data:
 
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/75114179/151688824-1cbd6341-acf7-43e4-80d2-9285daffb505.png">
 
+Train logs:
+
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/75114179/155757592-2d98745c-f8b7-4c02-808b-dea368e9ab20.png">
 
