@@ -106,8 +106,26 @@ The “Attention Mask” is simply an array of 1s and 0s indicating which tokens
 #### Training and Validation Loss
 ![image](https://user-images.githubusercontent.com/75114179/157843841-7164c9db-3eae-440c-80c4-4666eb9ea4e3.png)
 
+# TASK 3
+Reproduce the training explained in this blog (https://towardsdatascience.com/bart-for-paraphrasing-with-simple-transformers-7c9ea3dfdd8c). 
 
+## BART for Paraphrasing with Simple Transformers
+Paraphrasing is the act of expressing something using different words while retaining the original meaning, which in the notebook will be achieved with BART, a Sequence-to-Sequence Transformer Model. For the task of paraphrasing, the pre-trained BART model can be fine-tuned directly using the input sequence (original phrase) and the target sequence (paraphrased sentence) as a Sequence-to-Sequence model
 
+### What is BART?
+BART is a denoising autoencoder for pretraining sequence-to-sequence models. BART is trained by:
+(1) corrupting text with an arbitrary noising function, and 
+(2) learning a model to reconstruct the original text
 
+#### BART Sequence-to-Sequence
+BART has both an encoder (like BERT) and a decoder (like GPT), essentially getting the best of both worlds.
+The encoder uses a denoising objective similar to BERT while the decoder attempts to reproduce the original sequence (autoencoder), token by token, using the previous (uncorrupted) tokens and the output from the encoder
+![image](https://user-images.githubusercontent.com/75114179/157860906-6454b2d7-b3dd-4fb9-adcd-8b7c497cf5ab.png)
 
+#### Some of the corruptionn schemes that can used for BART:
+* Token Masking — A random subset of the input is replaced with [MASK] tokens, like in BERT.
+* Token Deletion — Random tokens are deleted from the input. The model must decide which positions are missing (as the tokens are simply deleted and not replaced with anything else).
+* Text Infilling — A number of text spans (length can vary) are each replaced with a single [MASK] token.
+* Sentence Permutation — The input is split based on periods (.), and the sentences are shuffled.
+* Document Rotation — A token is chosen at random, and the sequence is rotated so that it starts with the chosen token
 
