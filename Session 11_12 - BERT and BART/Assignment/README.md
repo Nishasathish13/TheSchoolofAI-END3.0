@@ -120,6 +120,7 @@ BART is a denoising autoencoder for pretraining sequence-to-sequence models. BAR
 #### BART Sequence-to-Sequence
 BART has both an encoder (like BERT) and a decoder (like GPT), essentially getting the best of both worlds.
 The encoder uses a denoising objective similar to BERT while the decoder attempts to reproduce the original sequence (autoencoder), token by token, using the previous (uncorrupted) tokens and the output from the encoder
+
 ![image](https://user-images.githubusercontent.com/75114179/157860906-6454b2d7-b3dd-4fb9-adcd-8b7c497cf5ab.png)
 
 #### Some of the corruptionn schemes that can used for BART:
