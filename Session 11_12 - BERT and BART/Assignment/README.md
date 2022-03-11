@@ -36,6 +36,12 @@ BERT is a trained Transformer Encoder stack, with twelve in the Base version, an
 <img width="696" alt="image" src="https://user-images.githubusercontent.com/75114179/152490717-47e4a9f0-0a9e-4743-8805-86eba0a9e4fa.png">
 
 
+#### TASK 2
+
+Reproduce these https://mccormickml.com/2019/07/22/BERT-fine-tuning/ results, and show output on 5 samples
+
+
+
 
 
 
